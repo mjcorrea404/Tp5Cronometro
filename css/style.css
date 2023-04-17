@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .timer {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #start {
+    background-color: green;
+    color: white;
+  }
+  #pause {
+    background-color: violet;
+  }
+  #reset {
+    background-color: blue;
+    color: white;
+  }
+  
